@@ -1,1 +1,13 @@
+spring:
 
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+  datasource:
+    hikari:
+      driver-class-name: org.h2.Driver
+      jdbc-url: jdbc:h2:tcp://localhost/~/shopping-site
+      username: sa
+      password: ""
